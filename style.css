@@ -1,0 +1,58 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  margin: 20px 0;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; /* un peu plus rond */
+  text-align: center;  /* centre le texte et les images */
+}
+
+.img-circle {
+  width: 120px;        /* photo un peu plus grande */
+  height: 120px;       /* fixe l’hauteur pour oval si besoin */
+  border-radius: 50%;  /* rend ronde */
+  display: block;
+  margin: 0 auto 20px auto; /* centre et espace en dessous */
+}
+
+.btn-blue {
+  background-color: #ff6f91; /* rose pour aller avec ton titre */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+h1 {
+  color: #ff6f91;  /* titre rose */
+  font-weight: bold; /* gras */
+}
+
+h2 {
+  font-weight: bold; /* sous-titres en gras */
+}
